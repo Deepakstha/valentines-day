@@ -20,7 +20,7 @@ export default function Home() {
       setInit(true);
     });
   }, []);
-  particlesOptions.particles.size.value = 10;
+  particlesOptions.particles.size.value = { min: 5, max: 13 };
   particlesOptions.particles.shape.type = "heart";
   return (
     <main className="flex h-screen flex-col items-center justify-between p-24 bg-[#ff6884]">
