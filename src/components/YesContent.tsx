@@ -17,10 +17,10 @@ const YesContent = ({ proposal }: any) => {
           <Image src="/dog1.gif" height={400} width={400} alt="cat gif" />
           {displayButton ? (
             <button
-              className="border-2 border-red-500 rounded-full px-20 py-3 text-red-500 "
+              className="border-2 border-red-500 rounded-full mt-5 px-20 py-3 text-red-500 "
               onClick={() => setStopAudio(true)}
             >
-              stop audio
+              Stop the Badu Song
             </button>
           ) : null}
 
