@@ -23,7 +23,7 @@ export default function Home() {
   particlesOptions.particles.size.value = { min: 5, max: 13 };
   particlesOptions.particles.shape.type = "heart";
   return (
-    <main className="flex h-screen flex-col items-center justify-between p-24 bg-[#ff6884]">
+    <main className="flex h-screen flex-col items-center justify-between p-24 max-md:px-3 bg-[#ff6884]">
       {init && <Particles options={particlesOptions as ISourceOptions} />}
       <Card frontContent="Click to Open" />
     </main>

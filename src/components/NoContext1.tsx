@@ -16,13 +16,13 @@ const NoContext1 = ({ proposal, setProposal }: any) => {
           <h2 className="text-[#751127] valen text-5xl font-bold">Please...</h2>
           <div className=" flex gap-7 mt-10">
             <button
-              className="border rounded-full bg-red-500  px-20 py-3"
+              className="border rounded-full bg-red-500  px-20 py-3  max-md:py-2 max-md:px-10"
               onClick={() => setProposal("yes")}
             >
               Yes
             </button>
             <button
-              className="border-2 border-red-500 rounded-full px-20 py-3 text-red-500 "
+              className="border-2 border-red-500 rounded-full px-20 py-3 text-red-500  max-md:py-2 max-md:px-10"
               onClick={() => setProposal("no2")}
             >
               No

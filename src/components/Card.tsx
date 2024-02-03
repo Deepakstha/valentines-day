@@ -15,7 +15,7 @@ const Card = ({ frontContent }: { frontContent: string }) => {
       onClick={handleOnClick}
       className={`card ${
         isFlipped ? "flip" : ""
-      } border-[12px] border-white rounded-xl shadow-2xl`}
+      } border-[12px] border-white rounded-xl shadow-2xl max-md:w-full  `}
     >
       <div className="front flex flex-col items-center justify-center ">
         <Image
