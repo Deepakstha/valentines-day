@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Buttont from "./Button/Button";
+import { Button } from "./ui/button";
 
 const BackIndex = ({ setProposal }: any) => {
   return (
@@ -18,6 +20,8 @@ const BackIndex = ({ setProposal }: any) => {
         >
           Yes
         </button>
+        {/* <Buttont props="Yes" /> */}
+        <Button variant="default">Yes</Button>
         <button
           className="border-2 border-red-500 rounded-full px-20 py-3 text-red-500  max-md:py-2 max-md:px-10"
           onClick={() => setProposal("no")}

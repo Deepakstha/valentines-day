@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import BackContent from "./BackContent";
 import Image from "next/image";
 
-const Card = ({ frontContent }: { frontContent: string }) => {
+const Card = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleOnClick = () => {
@@ -27,7 +27,7 @@ const Card = ({ frontContent }: { frontContent: string }) => {
         />
         <h4>Dear Crush</h4>
         <div className=" bg-white p-20 text-black shadow-2xl text-[40px] font-serif cursor-pointer">
-          {frontContent}
+          Click to Open
         </div>
       </div>
       <BackContent />
